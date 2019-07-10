@@ -1,6 +1,6 @@
-Programa de teste para comunicação via MQTT ao esp8266.
+Programa de teste para comunicação via MQTT ao ESP8266.
 
-Neste teste temos coplado ao nodeMCU ESP8266, um dht11, um dht22 e um LED.
+Neste teste temos acoplado ao nodeMCU ESP8266, um dht11, um dht22 e um LED.
 
 Bibliotecas necessárias: PubSubClient; DHT sensor library; ESP8266WiFi.
 
@@ -16,9 +16,9 @@ Os comandos servem para ligar ou desligar o LED e para que sejam enviadas inform
 
 Links úteis:
 
-ESP Primeiros Passos - Além de ensinar o Básico de programação para o ESP8266 ele também ensina um pouco de comunicação MQTT na prática
+ESP Primeiros Passos - Além de ensinar o Básico de programação para o ESP8266 ele também ensina um pouco de comunicação MQTT na prática.
 https://www.youtube.com/playlist?list=PL7CjOZ3q8fMe6DxojEFuDx4BP0qbbpKtP
 
-Caso queira testar o envio e o recebimento das mensagens via MQTT - Os dois links ensinam a instalar o cliente MQTT chamado mosquitto, e com ele tanto se inscrever(subscribe) quanto publicar(publish) nos tópicos ao qual o ESP8266 estão operando.
+Caso queira testar o envio e o recebimento das mensagens via MQTT - Os dois links ensinam a instalar o cliente MQTT chamado mosquitto, e com ele tanto se inscrever(subscribe) quanto publicar(publish) em tópicos do broker MQTT.
 https://cadernodelaboratorio.com.br/2018/12/10/implementando-um-subscriber-mosquitto/
 https://cadernodelaboratorio.com.br/2018/12/07/implementando-um-publisher-mosquitto/
